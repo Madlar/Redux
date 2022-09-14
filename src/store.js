@@ -5,7 +5,7 @@ import { print1, print2, print3 } from './exampleAddons/middleware'
 
 const compsedEnhancer = composeWithDevTools(
     // EXAMPLE: Add whatever middleware you actually want to use here
-    applyMiddleware(print1, print2, print3)
+    applyMiddleware()
     // other store enhancer if any
 )
 
